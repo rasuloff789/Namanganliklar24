@@ -1,0 +1,427 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Rubik','Roboto', sans-serif;
+}
+.container{
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+header{
+  height: 332px;
+  background: #F6F6F9;
+  padding: 44px 120px 23px 120px;
+}
+.title{
+  min-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.namanganliklar24{
+  padding: 4px 7px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+  margin-right: 17px;
+}
+.dollar{
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(133, 132, 124);
+}
+.currency{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #285193;
+}
+.search{
+  margin-left: 311px;
+  border: none;
+  height: 40px;
+  padding: 11px 9.6px 11.5px 11px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 22px;
+}
+.russia{
+  width: 64.76px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+  padding:10px 7.5px 8px 11px;
+  border-radius: 5px;
+}
+.cif{
+  border: solid 0.2px rgb(107, 103, 103);
+  border-radius: 50%;
+}
+.telegram{
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  width: 146px;
+  height: 40px;
+  padding:10px 12px 8px 10px;
+  margin-left: 24px;
+}
+.telegram:hover{
+  background: linear-gradient(90deg, #37AEE2 15.07%, #1E96C8 85.96%);
+}
+.head_nav{
+  width: 1200px;
+  padding-bottom: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.columns{
+  margin: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  padding: 22px 25px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.words a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px; 
+  color: #515151;
+}
+.words a:hover{
+  color: blue;
+}
+.advertising{
+  width: 1200px;
+  height: 98px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.registration{
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.regitration_card{
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+}
+.regitration_card label{
+  display: block;
+  margin-bottom: 20px;
+}
+.name,
+.email,
+.number,
+.theme,
+.text{
+  width: 600px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #888888;
+  padding:15px;
+  background: #F1F1F1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.text{
+  min-height: 310px;
+  width: 600px;
+  resize: none;
+  font-family:"Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  background: #F1F1F1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.file{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+.my span{
+  display: inline-block;
+  width: 221px;
+  height: 50px;
+  background: #FBFBFB;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  padding: 15px;
+  background-image: url("../img/file_with_.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px ;
+  background-position: right center;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.code{
+  display: inline-block;
+  width: 221px;
+  height: 50px;
+  background: #FBFBFB;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.p_code{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 29px;
+  margin: 0;
+  color: #000000;
+  margin-left: 15px;
+}
+.send{
+font-family: "Rubik";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+background: #295093;
+border: 2px solid rgba(40, 81, 147, 0.54);
+box-sizing: border-box;
+border-radius: 5px;
+width: 221px;
+height: 50px;
+}
+.social_media_with_namanganliklar24{
+  width: 510px;
+height: 280px;
+background: #FFFFFF;
+border: 2px solid #BCC3CD;
+box-sizing: border-box;
+border-radius: 5px;
+box-shadow: -8px 8px 9px rgba(57, 57, 57, 0.25);
+border-radius: 5px;
+margin-top: 65px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+}
+.social_media_with_namanganliklar24 h2{
+  font-family: "Rubik";
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+margin: 0;
+margin-left: auto;
+color: #295091;
+}
+.social_media_with_namanganliklar24 div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_media_with_namanganliklar24 span{
+  font-family: "Rubik";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #888888;
+}
+.mail_namanganliklar{
+font-family: "Rubik";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #888888;
+text-decoration: none;
+}
+.facebook_and_another a{
+  align-items: center;
+  margin-left: 13px;
+}
+.subscribe_telegram a{
+  text-decoration: none;
+  font-family: "Rubik";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+  width: 170px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #295091;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+.foot{
+  background: #295093;
+  width:1440px;
+}
+.footer{
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+  justify-content: center;
+}
+.first_floor{
+  align-items: center;
+  padding-top:18px;
+  padding-bottom:18px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 3px #133C82;
+}
+.namanganliklar24_link{
+  width: 194px;
+  height: 38px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding : 11px 12px 6px 9px;
+  background: #133C82;
+  border-radius: 5px;
+}
+.subscription{
+  align-items: center;
+  display: flex;
+}
+.telegram_subscribe_word{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.subscription a{
+  width: 132px;
+  align-items: center;
+  text-decoration: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding:9px 10px;
+  display: flex;justify-content: space-between;
+  margin-left: 17px;
+}
+.subscription_word_ru{
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+}
+.second_floor{
+  display: flex;
+  justify-content: flex-start;
+}
+.about_the_site{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  width: 365px;
+}
+.another a{
+  margin-left: 111px;
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.another a:hover{
+  text-decoration: underline;
+}
+.second_another p{
+  margin-left: 115px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.second_another p:hover{
+  text-decoration: underline;
+}
